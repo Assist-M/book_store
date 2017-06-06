@@ -395,6 +395,19 @@
 
 }
 
+.slide-text-1 {
+    left: 0;
+    top: 38%;
+    right: 0;
+    margin: auto;
+    padding: 10px;
+    position: absolute;
+    text-align: left;
+    padding: 10px 85px;
+
+}
+
+
 .slide-text > h2 {
 
     padding: 0;
@@ -871,4 +884,30 @@
 
     }
   }
+
+  .border-1 {
+    border-right: 1.5px dashed #ccc;
+  }
+
+  .category-content-1 {
+    padding: 50px 0 0 0;
+
+    // border-right: 2.5px dashed #ccc;
+    /*===== Box 分类图片 =====*/
+    h3 {
+      padding: 20px 0 20px 0;
+      font-weight: 700;
+      font-size: 18px;
+    }
+
+    p {
+      text-align: justify;
+      letter-spacing: 1.5px;
+      padding: 0 62.5px 50px 62.5px;
+      color: #666;
+      line-height: 26px;
+
+    }
+  }
+
 }
